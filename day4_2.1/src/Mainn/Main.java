@@ -14,8 +14,7 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, RemoteException {
 		// TODO Auto-generated method stub
 
-		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		
+		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());		
 		customerManager.Save(new Customer(1,"Adiniz", "Soyadiniz", LocalDate.of(yil, ay, gun), "TCKimlikNo"));
 
 	}
