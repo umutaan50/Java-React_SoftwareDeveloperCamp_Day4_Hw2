@@ -15,6 +15,7 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+		
 		customerManager.Save(new Customer(1,"Adiniz", "Soyadiniz", LocalDate.of(yil, ay, gun), "TCKimlikNo"));
 
 	}
